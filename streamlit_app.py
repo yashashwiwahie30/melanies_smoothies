@@ -11,7 +11,7 @@ helpful_links = [
 ]
 
 # Write directly to the app
-st.title(":cup_with_straw: Customize Your Smoothie! :cup_with_straw:")
+st.title("My Parenets new healthy diner.")
 st.write("Choose the fruits you want in your custom Smoothie! :")
 
 import streamlit as st
