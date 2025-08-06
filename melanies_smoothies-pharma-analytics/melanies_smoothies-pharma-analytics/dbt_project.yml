@@ -1,0 +1,19 @@
+name: pharma_project
+profile: default
+
+models:
+  pharma_project:
+    Staging:
+      +schema: P_TRANSFORMED_SCH
+      +materialized: table
+
+    marts:
+      +schema: p_analytics_sch
+      core:
+        +materialized: table
+
+seeds:
+  pharma_project:
+    +schema: p_analytics_sch
+    date_dimension:
+      +quote_columns: true
